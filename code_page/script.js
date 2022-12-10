@@ -10,7 +10,7 @@ function to1() {
 	function ans()
 	{
 		if(input.value == "go")
-			location.href="./code_page/page1_start.html";
+			location.href="./code_page/page01_start.html";
 		else
 		{
 			input.style.animation='shake 0.5s';
