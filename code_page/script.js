@@ -52,8 +52,8 @@ function to2() {
 
 	function ans()
 	{
-		if(input.value == "라온이")
-			location.href="./page2_raon.html";
+		if(input.value == "2+3") //숫자라면 따옴표 제거
+			location.href="./page02_raon.html";
 		else
 		{
 			input.style.animation='shake 0.5s';
