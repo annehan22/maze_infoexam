@@ -9,12 +9,12 @@ function to1() {
 
 	function ans()
 	{
-		if(input.value == "시작")
+		if(input.value == "go")
 			location.href="./code_page/page1_start.html";
 		else
 		{
 			input.style.animation='shake 0.5s';
-			error.innerHTML = "다시 풀어보세요";
+			error.innerHTML = "go 입력하세요";
 		}
 	}
 
