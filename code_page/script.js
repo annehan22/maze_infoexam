@@ -95,7 +95,7 @@ function to3() {
 
 	function ans()
 	{
-		if(input.value == 3) //숫자라면 따옴표 제거
+		if(input.value == "3") //숫자라면 따옴표 제거
 			location.href="./page99_end.html";
 		else
 		{
